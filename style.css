@@ -193,13 +193,22 @@ main{
 .sponsors-image-container img{
     width: 10.1rem;
 }
+footer{
+    text-align: center;
+    background-color: rgb(117, 104, 104);
+    padding: 3rem;
+    color: #FFF; 
+    font-size: 1rem; 
+    width: 100%; 
+    margin-top: 2rem;     
+}
 /* Responsive media screan */
 
 @media screen and (max-width:576px) {
-    header, main{
+    header, main, footer{
         padding: 1.2rem;
         margin: 1rem;
-    }          
+    }         
     .nav, .nav ul,
     .sponsors-image-container,
     .fact-card-container,
@@ -226,17 +235,9 @@ main{
         position: relative;  
         bottom: 6rem; 
         right: 4rem;
-        padding: 1.2rem;  
-         
-    }
-    footer{
-        text-align: center;
-        background-color: black;
-        padding: 3rem;
-        color: #FFF; 
-        font-size: 1rem; 
-        width: 100%;      
-    }
+        padding: 1.2rem;          
+    } 
+    
      
 }
 /* tablet or medium devices  */
